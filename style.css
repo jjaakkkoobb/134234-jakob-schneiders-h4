@@ -1,19 +1,52 @@
-/************************* DEBUG SETTINGS *************************/
+header {
+  width: 900px;
+  height: 50px;
+  background-color: #0000ff;
+  margin: auto;
+}
 
-/* Settings to help find errors in your css
-   uncomment to enable */
+nav {
+  width: 900px;
+  height: 50px;
+  margin: auto;
+  background-color: #7d388f;
+}
 
-/* Add dotted line around all boxes.
-   This makes size of boxes visible.
-   Warning 1: this settings may change your layout.
-   Warning 2: keep the * as selector for all tags when uncommenting. */
-/*  * {border: 1px dotted black;}   */
-  
-/* Add semi-transparant dark background to all boxes
-   The more boxes are on top of eachother the darker tghe background color
-   Warning: keep the * as selector for all tags when uncommenting. */
-/*  * {background-color: rgba(0,0,0,5%);}  */
+#bigimage {
+  width: 100%;
+  height: 300px;
+}
 
-/************************* YOUR SETTINGS *************************/
+main {
+  width: 900px;
+  background-color: black;
+  margin: auto;
+}
+article {
+  height: 600px;
+  float: left;
+  padding: 10px;
+  background-color: #339696;
+}
 
-/* add your css here, feel free to use comments and order them logically for better readability */
+.big {
+  width: 580px;
+  margin: 20px 20px 20px 0px;
+}
+
+.small {
+  width: 300px;
+  margin: 20px 0px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  clear: both;
+}
+
+<article class="small">
+Article
+</article>
